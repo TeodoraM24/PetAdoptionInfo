@@ -1,4 +1,4 @@
-// src/pages/Endpoints.js
+
 import styled from 'styled-components';
 
 // Container for the Endpoints page content
@@ -8,7 +8,7 @@ const EndpointsContainer = styled.div`
   align-items: center;
   justify-content: center;
   padding: 50px 20px;
-  background-color: var(--background-color, #f9f9f9);  // Background color
+  background-color: var(--background-color, #f9f9f9);  
   min-height: 100vh;
   color: var(--text-color, #333);
 `;
@@ -18,7 +18,7 @@ const Heading = styled.h1`
   font-size: 2.5rem;
   margin-bottom: 20px;
   text-align: center;
-  color: var(--primary-color, #4CAF50);  // Primary color
+  color: var(--primary-color, #4CAF50);  
 `;
 
 // Styled subheading for section titles

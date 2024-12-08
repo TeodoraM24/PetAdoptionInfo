@@ -1,10 +1,9 @@
-// src/styles/GlobalStyle.js
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   :root {
-    --primary-color: #4CAF50;  // Green for headings and emphasis
-    --secondary-color: #FF5722; // Orange for highlights
+    --primary-color: #4CAF50;  
+    --secondary-color: #FF5722; 
     --background-color: #f9f9f9;
     --text-color: #555;
     --font-family: Arial, sans-serif;

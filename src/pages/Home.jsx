@@ -1,4 +1,4 @@
-// src/pages/Home.js
+
 import styled from 'styled-components';
 
 // Container for the Home page content
@@ -8,13 +8,13 @@ const HomeContainer = styled.div`
   align-items: center;
   justify-content: center;
   padding: 50px 20px;
-  background-color: var(--background-color, #f9f9f9);  // Use global background color
+  background-color: var(--background-color, #f9f9f9);  
   min-height: 100vh;
 `;
 
 // Styled heading for the page
 const Heading = styled.h1`
-  color: var(--primary-color, #4CAF50);  // Use global primary color for emphasis
+  color: var(--primary-color, #4CAF50);  
   font-size: 3rem;
   margin-bottom: 20px;
   text-align: center;
@@ -27,7 +27,7 @@ const Paragraph = styled.p`
   text-align: center;
   max-width: 800px;
   margin-top: 20px;
-  color: var(--text-color, #555);  // Use global text color
+  color: var(--text-color, #555);  
 `;
 
 function Home() {

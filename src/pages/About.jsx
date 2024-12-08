@@ -1,4 +1,4 @@
-// src/pages/About.js
+
 import styled from 'styled-components';
 
 // Container for the About page content
@@ -8,13 +8,13 @@ const AboutContainer = styled.div`
   align-items: center;
   justify-content: center;
   padding: 50px 20px;
-  background-color: var(--background-color, #f9f9f9);  // Background color
+  background-color: var(--background-color, #f9f9f9);  
   min-height: 100vh;
 `;
 
 // Styled heading for the page
 const Heading = styled.h1`
-  color: var(--primary-color, #4CAF50);  // Primary color
+  color: var(--primary-color, #4CAF50);  
   font-size: 2.5rem;
   margin-bottom: 20px;
   text-align: center;
@@ -27,7 +27,7 @@ const Paragraph = styled.p`
   text-align: center;
   max-width: 800px;
   margin-top: 20px;
-  color: var(--text-color, #555);  // Text color
+  color: var(--text-color, #555);  
 `;
 
 function About() {

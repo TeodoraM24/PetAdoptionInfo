@@ -1,4 +1,4 @@
-// src/pages/Links.js
+
 import styled from 'styled-components';
 
 // Container for the Links page content
@@ -9,7 +9,7 @@ const LinksContainer = styled.div`
   justify-content: center;
   padding: 40px 20px;
   min-height: 100vh;
-  color: #333;  // Dark text color for better readability
+  color: #333;  
   font-family: Arial, sans-serif;
 `;
 
@@ -26,7 +26,7 @@ const Heading = styled.h1`
 const SubHeading = styled.p`
   font-size: 1.1rem;
   margin: 20px 0;
-  color: #555;  // Light gray color for text
+  color: #555;  
   text-align: center;
   max-width: 800px;
 `;
@@ -47,12 +47,12 @@ const LinksList = styled.ul`
 const ListItem = styled.li`
   margin: 10px 0;
   font-size: 1.1rem;
-  color: #333;  // Dark text color for readability
+  color: #333;  
 `;
 
 // Styled links with subtle hover effect
 const StyledLink = styled.a`
-  color: #007bff;  // Blue color for the links
+  color: #007bff;  
   text-decoration: none;
   font-weight: 500;
 
