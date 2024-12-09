@@ -61,12 +61,9 @@ function TopMenu() {
   return (
     <nav>
       <StyledMenu>
-        {/* Logo Section */}
         <LogoContainer>
           <Logo src={logo} alt="PetAdoptionAPI Logo" />
         </LogoContainer>
-
-        {/* Menu Items */}
         <MenuItem>
           <StyledNavLink to='/'>Home</StyledNavLink>
         </MenuItem>

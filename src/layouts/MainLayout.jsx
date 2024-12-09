@@ -6,7 +6,7 @@ import TopMenu from '../components/TopMenu'
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  max-width: var(--small-device);
+ 
   width: 100%;
   border: 1px solid blue;
 `
